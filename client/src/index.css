@@ -15,3 +15,23 @@ header a {
   color: white;
   padding: 1rem; 
 }
+main{
+  padding: 1rem;
+}
+.produits{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.produit{
+  border: 1px solid;
+  margin: 1rem;
+}
+.produit img{
+  width: 100%;
+}
+
+.info-produit{
+  padding: 1rem;
+}
