@@ -1,65 +1,81 @@
-const donnée = {
-    produits:[
-        {
-            slug:'Tshirt cosmos',
-            nom:'Tshirt Nike Slim',
-            catégorie: 'Tshirt',
-            Image: '/images/tshirt1.jpg',//679 px /829px
-            prix:'59',
-            Quantité: 25,
-            Marque: 'Nike',
-            cotation:5,
-            NombreVues:23,
-            Description:'Tshirt de sport de haute qualité produit cotton'
+import bcrypt from 'bcryptjs';
 
+const data = {
+  produits: [
+    {
+      // _id: '2',
+      nom: 'Tshirt sofiane',
+      slug: 'Nike-fit-shirt',
+      Image: '/images/tshirt1.jpg',
+      marque: 'Adidas',
+      Quantité: 100,
+      catégorie: 'Shirts',
+      Description: 'high quality product',
+      prix: 250,
+      NombreVues: 10,
+      cotation: 4.0,
+    },
+    {
+      // _id: '2',
+      nom: 'Adidas Fit Darine',
+      slug: 'adidas-fit-shirt',
+      Image: '/images/tshirt2.jpg',
+      marque: 'Adidas',
+      Quantité: 80,
+      catégorie: 'Shirts',
+      Description: 'high quality product',
+      prix: 25,
+      NombreVues: 10,
+      cotation: 2.5,
+    },
+    {
+      // _id: '2',
+      nom: 'bermuda Fit Raed',
+      slug: 'adidas-fit-Raed',
+      Image: '/images/tshirt3.jpg',
+      marque: 'Adidas',
+      Quantité: 20,
+      catégorie: 'Shirts',
+      Description: 'high quality product',
+      prix: 25,
+      NombreVues: 10,
+      cotation: 3.0,
+    },
+    {
+      // _id: '2',
+      nom: 'cosmos Fit Shirt sofia',
+      slug: 'adidas-fit-sofia',
+      Image: '/images/tshirt4.jpg',
+      marque: 'Adidas',
+      Quantité: 30,
+      catégorie: 'Shirts',
+      Description: 'high quality product',
+      prix: 250,
+      NombreVues: 10,
+      cotation: 1.0,
+    },
+  ],
 
+  users: [
+    {
+      nom: 'Sofiane',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('kari'),
+      isAdmin: true,
+    },
+    {
+      nom: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+    {
+      nom: 'SOFIA',
+      email: 'SOFIA@example.com',
+      password: bcrypt.hashSync('kari'),
+      isAdmin: true,
+    },
+  ],
+};
 
-        },
-        {
-            slug:'Tshirt bermuda',
-            nom:'Tshirt bermuda Slim',
-            catégorie: 'Tshirt',
-            Image: '/images/tshirt2.jpg',
-            prix:'90',
-            Quantité: 25,
-            Marque: 'Nike',
-            cotation:5,
-            NombreVues:23,
-            Description:'Tshirt de sport de haute qualité produit cotton',
-            
-
-
-        },
-        {
-            slug:'Tshirt adidas',
-            nom:'Tshirt Adidas Slim',
-            catégorie: 'Tshirt',
-            Image: '/images/tshirt3.jpg',
-            prix:'78',
-            Quantité: 25,
-            Marque: 'Nike',
-            cotation:5,
-            NombreVues:23,
-            Description:'Tshirt de sport de haute qualité produit cotton',
-            
-
-
-        },
-        {
-            slug:'Tshirt',
-            nom:'Tshirt Nike Slim',
-            catégorie: 'Tshirt',
-            Image: '/images/tshirt4.jpg',
-            prix:'59',
-            Quantité: 25,
-            Marque: 'Nike',
-            cotation:5,
-            NombreVues:23,
-            Description:'Tshirt de sport de haute qualité produit cotton',
-            
-
-
-        }
-    ]
-}
-export default donnée;
+export default data;
