@@ -8,6 +8,15 @@
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Boumaiza sofiane",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bsofiane1975/SofianEcom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bsofiane1975/SofianEcom/issues"
+  },
+  "homepage": "https://github.com/Bsofiane1975/SofianEcom/"
 }
+

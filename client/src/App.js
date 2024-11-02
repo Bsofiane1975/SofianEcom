@@ -42,7 +42,7 @@ function App() {
           <Navbar bg="dark" variant="dark" expand ="lg">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>amazona</Navbar.Brand>
+                <Navbar.Brand>Ecommerce </Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-Navbar-nav" />
               <Navbar.Collapse id ="basic-Navbar-nav">
